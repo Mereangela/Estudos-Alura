@@ -1,0 +1,16 @@
+body div {
+    width: 1200px;
+    height: 800px;
+    background-color: yellow;
+}
+
+div {
+   width: 400px;
+   height: 400px;
+   background-color: red;
+}
+
+div {
+    background-color: blue;
+    width: 50px;
+}
