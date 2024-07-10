@@ -85,6 +85,10 @@ body{
     font-size: 1.5rem;
 }
 
+.apresentacao__links__subtitulos{
+    font-size: 25px;
+}
+
 .apresentacao__links__link{
     /*background-color: #22D4FD;*/
     display:flex;
@@ -110,8 +114,21 @@ body{
 }
 
 .apresentacao__image{
-    max-width: 800px;
-    max-height: 650px; /*Pixel e ajusta o corpo da página */
+    width: 487px;
+    height: 650px; /*Pixel e ajusta o corpo da página */
+}
+
+#container_imgs_experiencia {
+    display: flex;
+}
+
+#container_imgs_experiencia img {
+    width: 50%;
+    height: 50%;
+}
+
+#container_imgs_experiencia img:last-child {
+    align-self: flex-end;
 }
 
 .rodape{
